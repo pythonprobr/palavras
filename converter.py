@@ -27,10 +27,14 @@ with open(ENTRADA, encoding='latin-1') as entrada:
             continue  # ignorar primeira linha (contagem)
         linha = linha.strip()
         linha = linha.split('/')[0]
+        partes = linha.split('-')
+        sufixo = partes[-1]
+        if len(sufixo) == 2 and sufixo.upper() == sufixo:
+            continue  # ignorrar nomes de cidades
         if linha:  # para evitar palavra vazia
-            palavras.add(linha)
-        if '-' in linha:
-            for palavra in linha.split('-'):
+            palavras.add(linha)  # incluir palavra composta
+        if len(partes) > 1:
+            for palavra in partes:
                 if palavra:
                     palavras.add(palavra)  # para evitar palavra vazia
 

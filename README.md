@@ -12,8 +12,10 @@ O arquivo original foi processado pelo programa `converter.py` para:
 
 2. remover os códigos alfabéticos apensados a algumas palavras, após uma `/`
 
-3. acrescentar em linhas separadas as palavras que formam termos compostos (ex. casa-forte)
+3. remover nomes de cidades (ex. "Carnaubal-CE")
 
-4. reordenar tudo alfabeticamente
+4. acrescentar em linhas separadas as palavras que formam termos compostos (ex. casa-forte)
+
+5. reordenar tudo alfabeticamente
 
 O motivo do passo 3 é que a palavra "casa" não tem uma entrada individual no arquivo original! Se alguém souber o motivo, cadastre um *issue* explicando em que parte do código-fonte do corretor ortográfico do LibreOffice está a informação de que "casa" é uma palavra.
