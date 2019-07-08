@@ -18,4 +18,4 @@ O arquivo original foi processado pelo programa `converter.py` para:
 
 5. reordenar tudo alfabeticamente
 
-O motivo do passo 3 é que a palavra "casa" não tem uma entrada individual no arquivo original! Se alguém souber o motivo, cadastre um *issue* explicando em que parte do código-fonte do corretor ortográfico do LibreOffice está a informação de que "casa" é uma palavra.
+O motivo do passo 4 é que a palavra "casa" não tem uma entrada individual no arquivo original! Se alguém souber o motivo, cadastre um *issue* explicando em que parte do código-fonte do corretor ortográfico do LibreOffice está a informação de que "casa" é uma palavra.
